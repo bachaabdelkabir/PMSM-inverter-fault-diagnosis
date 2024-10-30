@@ -1,0 +1,79 @@
+\documentclass{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{dolphin}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{listings}
+%\usepackage{xcolor}
+
+
+
+\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+\usepackage{lipsum} % À proscrire dans un vrai mémoire de thèse !
+\usepackage{kpfonts}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{pgfplots}
+\usepackage{caption}
+%\usepackage{listings}
+\usepackage{microtype}
+\usepackage{varioref}
+%\usepackage[xindy,quiet]{imakeidx}
+\usepackage[autostyle]{csquotes}
+\usepackage[backend=biber,safeinputenc]{biblatex}
+\usepackage{hyperref}
+\usepackage[xindy,acronyms,symbols]{glossaries}
+\usepackage{pdfpages}
+
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[normalem]{ulem}
+ \useunder{\uline}{\ul}{}
+
+
+
+
+
+
+
+\title{ equation thermistor }
+
+
+\begin{document}
+
+
+
+
+
+
+\begin{equation}
+V_{out} = V_{in} \cdot \frac{R_{th}}{R_{th} + R_1}
+\end{equation}
+
+\begin{equation}
+ADC = \frac{V_{out}}{V_{in}} \cdot 1023
+\end{equation}
+
+\begin{equation}
+ADC = \frac{R_{th}}{R_{th} + R_1} \cdot 1023
+\end{equation}
+
+\begin{equation}
+R_{th} = R_1 \cdot \frac{1023}{ADC} - R_1 = \frac{R_1}{(\frac{1023}{ADC}) - 1}
+\end{equation}
+
+%Where:
+%\begin{itemize}
+%\item $V_{in}$ is the Arduino reference voltage (typically 5V)
+%\item $V_{out}$ is the voltage read by the Arduino analog pin
+%\item $R_1$ is the fixed resistor (47k\Omega)
+%\item $R_{th}$ is the thermistor resistance
+%\item $ADC$ is the Analog-to-Digital Converter reading (0-1023 for 10-bit ADC)
+%\end{itemize}
+
+
+
+\end{document}
