@@ -132,7 +132,18 @@ Email:
 ## Citation
 If you use this dataset in your research, please cite:
 ```
-[Citation information will be added after publication]
+Abdelkabir Bacha, Ramzi El Idrissi, Khalid Janati Idrissi, Fatima Lmai,
+Comprehensive dataset for fault detection and diagnosis in inverter-driven permanent magnet synchronous motor systems,
+Data in Brief,
+Volume 58,
+2025,
+111286,
+ISSN 2352-3409,
+https://doi.org/10.1016/j.dib.2025.111286.
+(https://www.sciencedirect.com/science/article/pii/S2352340925000186)
+Abstract: This work introduces a new, comprehensive dataset for Fault Detection and Diagnosis (FDD) in inverter-driven Permanent Magnet Synchronous Motor (PMSM) systems. Despite the increasing significance of AI-driven FDD techniques, the domain suffers from a lack of publicly accessible, real-world datasets for algorithm development and evaluation. Our contribution fills this gap by offering a comprehensive, multi-sensor dataset obtained from a bespoke experimental apparatus. The dataset includes different fault cases, such as open-circuit faults, short-circuit faults, and overheating conditions in the inverter switches. The dataset incorporates 8 raw sensor measurements and 15 derived features, recorded at 10 Hz, amounting to 10,892 samples across 9 operational conditions (one normal, eight fault types). By keeping this dataset publicly accessible, we seek to accelerate research in AI-driven fault identification and diagnosis for electric drive systems.
+Keywords: Dataset; Fault detection; Diagnosis; Inverter-driven; PMSM; Experimental setup; Machine learning
+
 ```
 
 DOI
